@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5184409700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "JobSearchTest.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "I want to search for job on CV-Library website",
+        "description": "",
+        "id": "i-want-to-apply-for-a-job;i-want-to-search-for-job-on-cv-library-website;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3017174300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "JobSearchTest.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6774193600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on CV Library website and i select more search option",
+            "match": {
+              "location": "JobSearchTest.i_am_on_CV_Library_website_and_i_select_more_search_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1135244700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"Test Manager\" \"London\" \"50\" \"40000\" \"50000\" \"Per annum\" \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test Manager",
+                  "offset": 9
+                },
+                {
+                  "val": "London",
+                  "offset": 24
+                },
+                {
+                  "val": "50",
+                  "offset": 33
+                },
+                {
+                  "val": "40000",
+                  "offset": 38
+                },
+                {
+                  "val": "50000",
+                  "offset": 46
+                },
+                {
+                  "val": "Per annum",
+                  "offset": 54
+                },
+                {
+                  "val": "Permanent",
+                  "offset": 66
+                }
+              ],
+              "location": "JobSearchTest.i_enter(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157029100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select Find Jobs",
+            "match": {
+              "location": "JobSearchTest.i_select_Find_Jobs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25676000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I can see all jobs",
+            "match": {
+              "location": "JobSearchTest.i_can_see_all_jobs()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@CVJobSearchTest"
+          }
+        ]
+      }
+    ],
+    "name": "I want to apply for a job",
+    "description": "",
+    "id": "i-want-to-apply-for-a-job",
+    "keyword": "Feature",
+    "uri": "Jobsearch.feature"
+  }
+]
